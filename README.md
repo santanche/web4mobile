@@ -1,9 +1,7 @@
-web4mobile
-==========
+# web4mobile
 
-Platform Independent Mobile Development with Web Technologies
+Platform Independent Mobile Development with Web Technologies examples workspace.
 
-Firefox OS examples
--------------------
+## Usage
 
-* First Example - [Old Bike](web/app/61-firefox-os/61-firefox-os/old-bike.html)
+The `gh-pages` branch is specific to the website. See `CONTRIBUTING.md` to learn how to setup.
