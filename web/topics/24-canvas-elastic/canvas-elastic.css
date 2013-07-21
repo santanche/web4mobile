@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  font-family: Arial;
+
+  /* the main box (body) occupies all the visible area */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  /* eliminate margins etc. */
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+}
+
+header, .main, aside, .center, footer {
+  /* enables relative positioning */
+  position: relative;
+  
+  /* CSS3 - considers margim, border, padding sizes as part of width/height */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  border-style: dashed;
+  border-width: 1px;
+
+  text-align: center;
+}
+
+header, footer {
+  width: 100%;
+  height: 15%;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  height: 70%;
+}
+
+aside, .center {
+  height: 100%;
+}
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+.center {
+  float: right;
+  width: 80%;
+}

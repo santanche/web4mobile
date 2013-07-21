@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Canvas Elástico</title>
+  
+  <link rel="stylesheet" media="screen" href="canvas-elastic.css" />
+
+  <script type="text/javascript">
+    function desenhar() {
+       var desenho = document.querySelector("#desenho");
+
+       if (desenho.getContext) {
+          var contexto = desenho.getContext("2d");
+          
+          contexto.fillStyle = "#552200";
+          contexto.fillRect(77, 179, 50, 190);
+          
+          contexto.fillStyle = "#005500";
+          contexto.arc(102, 106, 95, 0, 2*Math.PI);
+          contexto.fill();
+       }
+    }
+  </script>
+</head>
+
+<body onload="desenhar">
+
+<header>
+  Header
+</header>
+
+<section class="main">
+  <aside>
+  Lateral
+  </aside>
+  
+  <canvas id="desenho" class="center">
+  Center
+  </canvas>
+</section>
+
+<footer>
+  Footer
+</footer>
+
+</body>
+
+</html>

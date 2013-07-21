@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+
+header, aside, .center, footer {
+  /* enables absolute positioning */
+  position: absolute;
+  
+  /* dashes to visually delimit the area */
+  border-style: dashed;
+  border-width: 1px;
+
+  text-align: center;
+}
+
+header, footer {
+  /* occupies 100% of the horizontal space */
+  left: 0px;
+  right: 0px;
+
+  height: 100px;
+}
+
+header {
+  /* fixes on the top */
+  top: 0px;
+}
+
+aside, .center {
+  /* occupies the vertical space between top (100px) and bottom (100px) */
+  top: 100px;
+  bottom: 100px;
+}
+
+aside {
+  /* fixes on the left */
+  left: 0px;
+  width: 120px;
+}
+
+.center {
+  /* occupies the horizontal space o the right of aside (120px) */
+  left: 120px;
+  right: 0px;
+}
+
+footer {
+  /* fixes on the bottom */
+  bottom: 0px;
+}

@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+
+header, aside, .center, footer {
+  /* enables absolute positioning */
+  position: absolute;
+  
+  /* dashes to visually delimit the area */
+  border-style: dashed;
+  border-width: 1px;
+
+  text-align: center;
+}
+
+header, footer {
+  height: 15%;
+
+  left: 0px;
+  right: 0px;
+}
+
+header {
+  top: 0px;
+}
+
+aside, .center {
+  top: 15%;
+  bottom: 15%;
+
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+aside {
+  left: 0px;
+  width: 20%;
+}
+
+.center {
+  left: 20%;
+  right: 0px;
+
+  margin-left: 2px;
+}
+
+footer {
+  bottom: 0px;
+}

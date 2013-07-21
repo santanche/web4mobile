@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>22. Web Storage Basic</title>
+
+  <style type="text/css">
+    .clicavel {
+        cursor: pointer;
+        font-weight: bold;
+        color: blue;
+    }
+  </style>
+  
+  <script type="text/javascript">
+    function ler() {
+       var nomeLido = localStorage.getItem("nome_db");
+       if (nomeLido != null)
+          document.querySelector("#nome").value = nomeLido;
+    }
+    function gravar() {
+       var nomeGravar = document.querySelector("#nome").value;
+       localStorage.setItem("nome_db", nomeGravar); 
+       alert("Gravou");
+    }
+  </script>
+</head>
+
+<body onload="ler()">
+
+Nome: <input type="text" id="nome"></input>
+
+<span class="clicavel" onclick="gravar()">Gravar</span>
+
+</body>
+
+</html>
