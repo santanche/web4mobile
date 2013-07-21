@@ -1,4 +1,4 @@
 /.project
 /web-non-git
-project.sublime-workspace
+*.sublime*
 _site
