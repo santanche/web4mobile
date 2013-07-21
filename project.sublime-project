@@ -3,10 +3,7 @@
 	[
 		{
 			"name": "Web4Mobile root",
-			"path": "/Users/renoirb/workspaces/contribution/web4mobile"
-		},
-		{
-			"path": "/Users/renoirb/workspaces/contribution/htmlcsstherightway"
+			"path": "."
 		}
 	]
 }
