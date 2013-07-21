@@ -23,7 +23,7 @@ App
 * [Proportional Layout 2](web/app/04-proportional-layout-2/proportional-layout.html)
 * [Flex Layout](web/app/05-flex-layout/proportional-layout.html)
 * [App 1](web/app/51-app-01/app-01-galeria.html)
-* [App 2](web/app/51-app-01/app-02-galeria.html)
+* [App 2](web/app/52-app-02/app-01-galeria.html)
 
 
 Firefox OS examples
