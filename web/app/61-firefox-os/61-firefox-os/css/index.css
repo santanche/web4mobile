@@ -35,6 +35,10 @@ header, footer {
   height: 15%;
 }
 
+header {
+    font-size: 32pt;
+}
+
 .main {
   box-sizing: border-box;
   width: 100%;

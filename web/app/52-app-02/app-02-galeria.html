@@ -4,9 +4,9 @@
 <head>
 
 <meta charset="ISO-8859-1">
-<title>51. App 01 (for Chrome)</title>
+<title>52. App 02 (for Chrome)</title>
   
-<link rel="stylesheet" media="screen" href="app-layout.css" />
+<link rel="stylesheet" media="screen" href="css/app-layout.css" />
 
 <script type="text/javascript">
    function aplicaTemplate()
@@ -24,6 +24,9 @@
 <template id="imageSet">
   <style scoped>
     .center {
+      left: 120px;
+      right: 0px;
+
       flex: 8;
       -webkit-flex: 8;
     
@@ -63,9 +66,11 @@
 
 <section class="main">
   <aside>
-    Página [01]
-    Próxima&lt;
-    &gt;Anterior
+    <nav>
+      <p class="page">Página [01]</p>
+      <p class="navlink">próxima &gt;</p>
+      <p class="navlink">&lt; anterior</p>
+    </nav>
   </aside>
   
 </section>
