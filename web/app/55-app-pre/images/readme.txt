@@ -1,0 +1,1 @@
+Ilustrações de cabeças de dinossauros, usadas nas figuras, cedidas sob licença Creative Commons Attribution-Noncommercial-No Derivative por *highdarktemplar (http://highdarktemplar.deviantart.com/).

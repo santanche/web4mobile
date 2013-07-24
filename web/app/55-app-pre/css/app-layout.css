@@ -1,10 +1,19 @@
 @CHARSET "ISO-8859-1";
 
+.navlink {
+    cursor: pointer;
+    font-weight: bold;
+    color: gray;
+}
+
 body {
   font-family: Arial;
   margin: 0px;
   
   background-color: gray;
+
+  /* avoids scroll for hidden blocks */
+  overflow: hidden;
 }
 
 header {
@@ -21,11 +30,19 @@ header {
 
 .app-block {
   position: absolute;
-  width: 100%;
   top: 50px;
   bottom: 0px;
+  width: 100%;
   
   background-color: gray;
+}
+
+.active {
+  left: 0px;
+}
+
+.inactive {
+  left: -100%;
 }
 
 header, aside {
@@ -118,4 +135,56 @@ footer {
 .page {
   font-size: 12pt;
   font-weight: bold;
+}
+
+/* Details profile */
+
+.details {
+  position: relative;
+  height: 100%;
+}
+
+.details aside, .details .main {
+  bottom: 5px;
+}
+
+.details .main {
+  overflow: hidden;
+}
+
+.details .main figure {
+  height: 100%;
+}
+
+.details .main figure img {
+  position: relative;
+  float: left;
+  
+  height: 90%;
+  
+  border-style: solid;
+  border-width: 2px;
+}
+
+.details .main figure .data {
+  position: relative;
+  float: left;
+  
+  background: white;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.details footer {
+  height: 0px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.author {
+  font-size: 20px;
 }

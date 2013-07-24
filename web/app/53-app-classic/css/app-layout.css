@@ -119,3 +119,55 @@ footer {
   font-size: 12pt;
   font-weight: bold;
 }
+
+/* Details profile */
+
+.details {
+  position: relative;
+  height: 100%;
+}
+
+.details aside, .details .main {
+  bottom: 5px;
+}
+
+.details .main {
+  overflow: hidden;
+}
+
+.details .main figure {
+  height: 100%;
+}
+
+.details .main figure img {
+  position: relative;
+  float: left;
+  
+  height: 90%;
+  
+  border-style: solid;
+  border-width: 2px;
+}
+
+.details .main figure .data {
+  position: relative;
+  float: left;
+  
+  background: white;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.details footer {
+  height: 0px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.author {
+  font-size: 20px;
+}
