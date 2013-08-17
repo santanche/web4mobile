@@ -1,7 +1,10 @@
 web4mobile
 ==========
 
-Platform Independent Mobile Development with Web Technologies
+Platform Independent Mobile Development with Web Technologies.
+
+Practical Examples
+==================
 
 Topics
 ------
@@ -31,9 +34,26 @@ Firefox OS examples
 
 * First Example - [Old Bike](web/app/61-firefox-os/61-firefox-os/old-bike.html)
 
+Links and Articles
+==================
+
 Responsive Design
 -----------------
 
 * [JQuery Table Reflow](http://view.jquerymobile.com/1.3.2/dist/demos/widgets/table-reflow/)
 * [stacktable.js](http://johnpolacek.github.io/stacktable.js/)
 * [Foo Table](http://themergency.com/footable-demo/responsive-container.htm)
+
+Web Platform
+------------
+
+* [HTML 5 Demos](http://html5-demos.appspot.com/)
+
+Web Components
+--------------
+
+* [Google Polymer Project](http://www.polymer-project.org/)
+* [Lardinois, F. (2013). Google Believes Web Components Are The Future Of Web Development. TechCrunch.] (http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/)
+* [Cooney, D., & Glazkov, D. (2013). Introduction to Web Components - W3C Working Draft 6 June 2013.] (http://www.w3.org/TR/2013/WD-components-intro-20130606/)
+* ShadowDOM
+  * [ShadowDOM Visualizer](http://html5-demos.appspot.com/shadowdom-visualizer)
