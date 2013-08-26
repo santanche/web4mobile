@@ -53,7 +53,18 @@ Web Components
 --------------
 
 * [Google Polymer Project](http://www.polymer-project.org/)
-* [Lardinois, F. (2013). Google Believes Web Components Are The Future Of Web Development. TechCrunch.] (http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/)
-* [Cooney, D., & Glazkov, D. (2013). Introduction to Web Components - W3C Working Draft 6 June 2013.] (http://www.w3.org/TR/2013/WD-components-intro-20130606/)
-* ShadowDOM
-  * [ShadowDOM Visualizer](http://html5-demos.appspot.com/shadowdom-visualizer)
+* [Lardinois, F. (2013). Google Believes Web Components Are The Future Of Web Development. TechCrunch.](http://techcrunch.com/2013/05/19/google-believes-web-components-are-the-future-of-web-development/)
+* [Cooney, D., & Glazkov, D. (2013). Introduction to Web Components - W3C Working Draft 6 June 2013.](http://www.w3.org/TR/2013/WD-components-intro-20130606/)
+* Shadow DOM
+  * [Glazkov, D. (2011). What the Heck is Shadow DOM?](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/)
+  * [Cooney, D. (2013). Shadow DOM 101. HTML5 ROCKS.](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
+  * [Cooney, D. (2013). Shadow DOM 201 - CSS and Styling. HTML5 ROCKS.](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/)
+  * [Cooney, D. (2013). Shadow DOM 301 - Advanced Concepts & DOM APIs. HTML5 ROCKS.](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-301/)
+  * [Shadow DOM Visualizer](http://html5-demos.appspot.com/shadowdom-visualizer)
+  * [Polymer - Shadow DOM](http://www.polymer-project.org/platform/shadow-dom.html)
+  * [Glazkov, D. (2013). Shadow DOM - W3C Working Draft 14 May 2013.](http://www.w3.org/TR/2013/WD-shadow-dom-20130514/)
+* Custom Elements
+  * [Dodson, R. (2013). Introduction to Custom Elements.](http://robdodson.me/blog/2013/03/19/custom-elements-intro/)
+  * [Polymer - Custom Elements](http://www.polymer-project.org/platform/custom-elements.html)
+* HTML Imports
+  * [Polymer - HTML Imports](http://www.polymer-project.org/platform/html-imports.html)
