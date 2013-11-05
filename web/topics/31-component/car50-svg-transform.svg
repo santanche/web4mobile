@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     width="181" height="130">
+
+  <g transform="translate(0 0) scale(1)">
+
+    <circle style="fill:#1a1a1a" cx="44" cy="90" r="40" />
+    <circle style="fill:#cccccc" cx="44" cy="90" r="20" />
+
+    <circle style="fill:#1a1a1a" cx="140" cy="102" r="28" />
+    <circle style="fill:#cccccc" cx="140" cy="102" r="14" />
+
+    <path style="fill:#6c5353; stroke:#000000; stroke-width:1px"
+          d="M 180.322,82.637687 172.30769,42.566127 0.50088787,1.4927774 1.5026779,82.637677 c -2.50447,-82.14667965 178.8193221,1e-5 178.8193221,1e-5 z" />
+
+    <text style="fill:white; font-size:28px; font-family:Arial"
+          x="9" y="30"
+          transform="rotate(10)">
+      ..carSaur
+    </text>
+  </g>
+
+</svg>
