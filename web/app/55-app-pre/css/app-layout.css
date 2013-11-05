@@ -42,7 +42,7 @@ header {
 }
 
 .inactive {
-  left: -100%;
+  left: -50%;
 }
 
 header, aside {
