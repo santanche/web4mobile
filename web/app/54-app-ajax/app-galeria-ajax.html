@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="ISO-8859-1">
-  <title>51. App 01 (for Chrome)</title>
+  <title>54. App Ajax (for Chrome)</title>
   
   <link rel="stylesheet" media="screen" href="css/app-layout.css" />
+
+  <script src="js/app-manage.js"></script>
 </head>
 
 <body>
@@ -14,7 +16,7 @@
   Galeria
 </header>
 
-<div class="app-block">
+<div id="aplication-block" class="app-block">
 
   <section class="galery">
     <aside>
@@ -24,9 +26,9 @@
         <p class="navlink">&lt; anterior</p>
       </nav>
     </aside>
-    
+  
     <section class="main">
-       <figure id="f1"><img src="images/pachycephalosaurus.png"/></figure>
+       <figure id="f1"><img onclick="loadDetails()" src="images/pachycephalosaurus.png"/></figure>
        <figure id="f2"><img src="images/parasaurolophus.png"/></figure>
        <figure id="f3"><img src="images/carnotaurus.png"/></figure>
     </section>
@@ -35,7 +37,7 @@
       Ilustrações de cabeças de dinossauros, usadas nas figuras, cedidas sob licença Creative Commons Attribution-Noncommercial-No Derivative por *highdarktemplar (<a href="http://highdarktemplar.deviantart.com/" target="_blank">http://highdarktemplar.deviantart.com/</a>).
     </footer>
   </section>
-  
+
 </div>
 
 </body>

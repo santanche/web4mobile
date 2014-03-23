@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>53. App DOM (for Chrome)</title>
+  
+  <link rel="stylesheet" media="screen" href="css/app-layout.css" />
+
+  <script type="text/javascript">
+    function ler() {
+       for (d = 0; d <= 2; d++) {
+          var dino = JSON.parse(localStorage.getItem("dino_" + d));
+          
+          var imgDino = document.createElement("img");
+          imgDino.setAttribute("src", dino.image);
+          
+          alert(dino.image);
+          
+          var figDino = document.querySelector("#f" + (d+1));
+          figDino.appendChild(imgDino);
+        }
+    }
+  </script>
+</head>
+
+<body onload="ler()">
+
+<header>
+  Galeria
+</header>
+
+<section class="main">
+  <aside>
+    <nav>
+      <p class="page">Página [01]</p>
+      <p class="navlink">próxima &gt;</p>
+      <p class="navlink">&lt; anterior</p>
+    </nav>
+  </aside>
+
+  <section class="galery">
+     <figure id="f1"></figure>
+     <figure id="f2"></figure>
+     <figure id="f3"></figure>
+  </section>
+</section>
+
+<footer>
+  Ilustrações de cabeças de dinossauros, usadas nas figuras, cedidas sob licença Creative Commons Attribution-Noncommercial-No Derivative por *highdarktemplar (<a href="http://highdarktemplar.deviantart.com/" target="_blank">http://highdarktemplar.deviantart.com/</a>).
+</footer>
+
+</body>
+
+</html>

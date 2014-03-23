@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+
+#app-block {
+  position: absolute;
+  
+  border-style: dashed;
+  border-width: 1px;
+  
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.down {
+  position: relative;
+  
+  left: 0px;
+  right: 0px;
+  
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  
+  border-style: dashed;
+  border-width: 1px;
+  
+  bottom: 20px;
+  
+  left: 0px;
+  right: 0px;
+ }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>22. Web Storage Basic</title>
+
+  <style type="text/css">
+    .clicavel {
+        cursor: pointer;
+        font-weight: bold;
+        color: blue;
+    }
+  </style>
+  
+  <script type="text/javascript">
+    function gravar() {
+       var dino = [];
+       dino[0] = {
+             "name": "Pachycephalosaurus w.",
+             "image": "images/pachycephalosaurus.png",
+             "autor": "*highdarktemplar"
+           };
+       dino[1] = {
+             "name": "Parasaurolophus",
+             "image": "images/parasaurolophus.png",
+             "autor": "*highdarktemplar"
+           };
+       dino[2] = {
+             "name": "Carnotaurus.png",
+             "image": "images/carnotaurus.png",
+             "autor": "*highdarktemplar"
+           };
+
+       for (d = 0; d <= 2; d++) {
+         localStorage.setItem("dino_" + d, JSON.stringify(dino[d]));
+       }
+       
+       alert("Gravou");
+    }
+  </script>
+</head>
+
+<body onload="ler()">
+
+<p class="clicavel" onclick="gravar()">Criar Objetos</p>
+
+</body>
+
+</html>

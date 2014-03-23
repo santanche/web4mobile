@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Car - SVG + CSS / template + shadow DOM</title>
+  
+  <link rel="import" href="car07-import_car-component.html" />
+
+  <script type="text/javascript">
+     function applyTemplate()
+     {
+        var myCar = document.querySelector("#myCar");
+        
+        var carComponent = document.querySelector("#carComponent").content;
+        
+        var myCarShadow = myCar.webkitCreateShadowRoot(); // standard: createShadowRoot()
+        myCarShadow.appendChild(carComponent);
+     }
+  </script>
+</head>
+
+<body onload="applyTemplate()">
+
+  <div id="myCar">..carSaur</div>
+
+</body>
+
+</html>

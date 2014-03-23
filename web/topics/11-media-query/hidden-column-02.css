@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+
+@media screen {
+  body {
+    background: black;
+    color: white;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+}
+
+header, aside, .center, footer {
+  /* enables absolute positioning */
+  position: absolute;
+  
+  /* dashes to visually delimit the area */
+  border-style: dashed;
+  border-width: 1px;
+
+  text-align: center;
+}
+
+header, footer {
+  /* occupies 100% of the horizontal space */
+  left: 0px;
+  right: 0px;
+
+  height: 100px;
+}
+
+header {
+  /* fixes on the top */
+  top: 0px;
+}
+
+.center {
+  /* occupies the vertical space between top (100px) and bottom (100px) */
+  bottom: 100px;
+}
+
+aside {
+  top: 100px;
+}
+
+.center {
+  right: 0px;
+}
+
+@media all and (min-width: 401px) {
+  aside {
+    /* fixes on the left */
+    left: 0px;
+    bottom: 100px;
+    width: 120px;
+  }
+  .center {
+    top: 100px;
+    left: 120px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  aside {
+    /* fixes below the header */
+    left: 0px;
+    right: 0px;
+    height: 100px;
+  }
+  .center {
+    top: 200px;
+    left: 0px;
+  }
+}
+
+footer {
+  /* fixes on the bottom */
+  bottom: 0px;
+}

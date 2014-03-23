@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>55. App Preload (for Chrome)</title>
+  
+  <link rel="stylesheet" media="screen" href="css/app-layout.css" />
+  
+  <script type="text/javascript">
+    function detailsPage() {
+       var galery = document.querySelector("#galery-block");
+       var details = document.querySelector("#details-block");
+       
+       galery.classList.remove("active");
+       galery.classList.add("inactive");
+       details.classList.remove("inactive");
+       details.classList.add("active");
+    }
+    
+    function galeryPage() {
+       var galery = document.querySelector("#galery-block");
+       var details = document.querySelector("#details-block");
+       
+       galery.classList.remove("inactive");
+       galery.classList.add("active");
+       details.classList.remove("active");
+       details.classList.add("inactive");
+    }
+  </script>
+</head>
+
+<body>
+
+<header>
+  Galeria
+</header>
+
+<div id="galery-block" class="app-block active">
+
+  <section class="galery">
+    <aside>
+      <nav>
+        <p class="page">Página [01]</p>
+        <p class="navlink">próxima &gt;</p>
+        <p class="navlink">&lt; anterior</p>
+      </nav>
+    </aside>
+  
+    <section class="main">
+       <figure id="f1"><img class="navlink" onclick="detailsPage()" src="images/pachycephalosaurus.png"/></figure>
+       <figure id="f2"><img src="images/parasaurolophus.png"/></figure>
+       <figure id="f3"><img src="images/carnotaurus.png"/></figure>
+    </section>
+
+    <footer>
+      Ilustrações de cabeças de dinossauros, usadas nas figuras, cedidas sob licença Creative Commons Attribution-Noncommercial-No Derivative por *highdarktemplar (<a href="http://highdarktemplar.deviantart.com/" target="_blank">http://highdarktemplar.deviantart.com/</a>).
+    </footer>
+  </section>
+
+</div>
+
+<div id="details-block" class="app-block inactive">
+
+  <section class="details">
+    <aside>
+      <nav>
+        <p class="page">Detalhes</p>
+        <p class="navlink" onclick="galeryPage()">(retornar)</p>
+      </nav>
+    </aside>
+  
+    <section class="main">
+       <figure id="f1">
+         <img src="images/pachycephalosaurus.png"/>
+         <section class="data">
+           <p class="title">Pachycephalosaurus w.</p>
+           <p class="author">by *highdarktemplar</p>
+           
+           <p>Submetido em 09/05/2008</p>
+           <p>Image Size: 264 KB</p>
+           <p>Resolution: 900×900</p>
+           
+           <p>Licença: CC 3.0 / by-nc-nd</p>
+         </section>
+       </figure>
+    </section>
+  </section>
+  
+</div>
+
+</body>
+
+</html>

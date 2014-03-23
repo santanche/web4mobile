@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>22. Web Storage Basic</title>
+
+  <style type="text/css">
+    .clicavel {
+        cursor: pointer;
+        font-weight: bold;
+        color: blue;
+    }
+  </style>
+  
+  <script type="text/javascript">
+    function ler() {
+       var jsonLido = JSON.parse(localStorage.getItem("json_db"));
+       if (jsonLido != null) {
+          document.querySelector("#nome").value = jsonLido.nome;
+          document.querySelector("#idade").value = jsonLido.idade;
+       }
+    }
+    function gravar() {
+       var jsonGravar = {
+         "nome" : document.querySelector("#nome").value,
+         "idade": document.querySelector("#idade").value
+       };
+       localStorage.setItem("json_db", JSON.stringify(jsonGravar)); 
+       console.log(jsonGravar);
+    }
+  </script>
+</head>
+
+<body onload="ler()">
+
+Nome: <input type="text" id="nome"></input>
+Idade: <input type="text" id="idade"></input>
+
+<span class="clicavel" onclick="gravar()">Gravar</span>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Car - SVG + CSS / template + shadow DOM</title>
+
+  <script type="text/javascript">
+     function applyTemplate()
+     {
+        var myCar = document.querySelector("#myCar");
+        
+        var carComponent = document.querySelector("#carComponent").content;
+        
+        var myCarShadow = myCar.webkitCreateShadowRoot(); // standard: createShadowRoot()
+        myCarShadow.appendChild(carComponent);
+     }
+  </script>
+</head>
+
+<body onload="applyTemplate()">
+
+<!-- begin of a reusable block -->
+<template id="carComponent">
+
+  <style scoped>
+    .tyre {
+      fill: #1a1a1a;
+    }
+    .rim {
+      fill: #cccccc;
+    }
+    .frame {
+      fill: #6c5353;
+      stroke: #000000;
+      stroke-width: 1px;
+    }
+    .nameStyle {
+      fill: white;
+      font-size: 28px;
+      font-family: Arial;
+      border-style: dashed;
+      border-width: 1px;
+      width: 181px;
+      text-align: center;
+    }
+  </style>
+
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+       width="181" height="130">
+       
+    <g transform="translate(0 0) scale(1)">
+    
+      <circle class="tyre" cx="44" cy="90" r="40" />
+      <circle class="rim" cx="44" cy="90" r="20" />
+      
+      <circle class="tyre" cx="140" cy="102" r="28" />
+      <circle class="rim" cx="140" cy="102" r="14" />
+      
+      <path class="frame"
+            d="M 180.322,82.637687 172.30769,42.566127 0.50088787,1.4927774 1.5026779,82.637677 c -2.50447,-82.14667965 178.8193221,1e-5 178.8193221,1e-5 z" />
+  
+    </g>
+  
+  </svg>
+  
+  <div id="textCarName" class="nameStyle" width="181px">
+    <content select="#carName"></content>
+  </div>
+
+</template>
+<!-- end of a reusable block -->
+
+<div id="myCar" class="carComp">
+  <div id="carName">..carSaur</div>
+</div>
+
+</body>
+
+</html>
