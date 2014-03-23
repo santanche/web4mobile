@@ -12,6 +12,10 @@ Topics
 * [Media Query](web/topics/11-media-query/page.html)
 * [SVG](web/topics/12-svg/svg-inline.html)
 * [SVG Elastic](web/topics/13-svg-elastic/svg-elastic.html)
+* Animated SVG
+  * [Traject Car 1](web/topics/14-svg-animation/trajeto-carro.svg)
+  * [Traject Car 2](web/topics/14-svg-animation/trajeto-carro2.svg)
+  * [Animated Car](web/topics/14-svg-animation/car-animated.svg)
 * [JSON](web/topics/21-json/s01-objects.html)
 * [Web Storage](web/topics/22-web-storage/web-storage-basic.html)
 * [Canvas](web/topics/23-canvas/canvas.html)
@@ -68,3 +72,8 @@ Web Components
   * [Polymer - Custom Elements](http://www.polymer-project.org/platform/custom-elements.html)
 * HTML Imports
   * [Polymer - HTML Imports](http://www.polymer-project.org/platform/html-imports.html)
+ 
+WebGL
+-----
+* [WebGL](http://www.webgl.org)
+* [WebGL Experiments](http://www.chromeexperiments.com/webgl/)
