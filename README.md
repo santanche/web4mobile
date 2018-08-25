@@ -13,9 +13,9 @@ Topics
 * [SVG](web/topics/12-svg/svg-inline.html)
 * [SVG Elastic](web/topics/13-svg-elastic/svg-elastic.html)
 * Animated SVG
-  * [Traject Car 1](web/topics/14-svg-animation/trajeto-carro.svg)
-  * [Traject Car 2](web/topics/14-svg-animation/trajeto-carro2.svg)
-  * [Animated Car](web/topics/14-svg-animation/car-animated.svg)
+  * [Traject Car 1](web/topics/14-svg-animation/car00-path-1.svg)
+  * [Traject Car 2](web/topics/14-svg-animation/car00-path-2.svg)
+  * [Animated Car](web/topics/14-svg-animation/car01-animated.svg)
 * [JSON](web/topics/21-json/s01-objects.html)
 * [Web Storage](web/topics/22-web-storage/web-storage-basic.html)
 * [Canvas](web/topics/23-canvas/canvas.html)
